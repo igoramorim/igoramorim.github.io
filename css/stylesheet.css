@@ -42,3 +42,7 @@ a:hover {
     color: #7f00ff;
     text-decoration: none;    
 }
+
+.mt-20 {
+    margin-top: 20px;
+}
