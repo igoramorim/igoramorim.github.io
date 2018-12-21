@@ -1,9 +1,7 @@
 body {
-    background-color: #282828;
-    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    /* padding-top: 5em; */
+    font-family: 'Contrail One', cursive;
     font-size: 16px;    
-    color: rgba(255,255,255,0.87);
+    color: #303030;
     margin: 1em 1em 1em 1em;
 }
 
@@ -12,9 +10,9 @@ li {
 }
 
 .division {
-    color: #444444;
-    background-color: #444444;
-    border-color: #444444;
+    color: #c0c0c0;
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
     margin-top: 2em;
 }
 
@@ -25,21 +23,19 @@ li {
 }
 
 .description {
-    color: #999 !important;
     margin-left: 1em;
     margin-top: 1em;
-    font-size: 13px;
-    font-weight: normal;
-
+    font-size: 15px;
+    color: #6b6b6b;
 }
 
 a:link, a:visited, a:active {
     text-decoration: none;
-    color: rgba(255,255,255,0.87);
+    color: #303030;
 }
 
 a:hover {
-    color: #7f00ff;
+    color: #7212f0;
     text-decoration: none;    
 }
 
