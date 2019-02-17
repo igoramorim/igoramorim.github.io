@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>igor amorim</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Contrail+One" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel='stylesheet' href='css/stylesheet.css'  type="text/css"/>
+        <link rel='stylesheet' href='css/lightbox.css'  type="text/css"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div>
+                        <h1>
+                            <a href="index.html">igor amorim</a>
+                        </h1>
+                        <p class="description">
+                            igor340@gmail.com <a href="https://www.instagram.com/icmamorim" target="_blank">instagram</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <hr class="division">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div>
+                        <h3>
+                            > drawings
+                            <p class="description">i also draw</p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mt-20">
+                    <!-- thumbs -->
+                    <div>
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_dbz_fanart_112.png"      width="200px" height="200px" onclick="openModal(1)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_hotline_miami_alex.png"  width="200px" height="200px" onclick="openModal(2)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_nemesis.png"             width="200px" height="200px" onclick="openModal(3)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_p_2.png"                 width="200px" height="200px" onclick="openModal(4)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_p.png"                   width="200px" height="200px" onclick="openModal(5)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn12_4.png"        width="200px" height="200px" onclick="openModal(6)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn13_2.png"        width="200px" height="200px" onclick="openModal(7)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn54.png"          width="200px" height="200px" onclick="openModal(8)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn57.png"          width="200px" height="200px" onclick="openModal(9)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn63_2.png"        width="200px" height="200px" onclick="openModal(10)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn64_3.png"        width="200px" height="200px" onclick="openModal(11)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn81.png"          width="200px" height="200px" onclick="openModal(12)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn82.png"          width="200px" height="200px" onclick="openModal(13)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn150.png"         width="200px" height="200px" onclick="openModal(14)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_sketchnn165.png"         width="200px" height="200px" onclick="openModal(15)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_study_quickkk_21.png"    width="200px" height="200px" onclick="openModal(16)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_study_quickkk_32.png"    width="200px" height="200px" onclick="openModal(17)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_study_quickkk_34.png"    width="200px" height="200px" onclick="openModal(18)">
+                        <img class="imgSketch hover-shadow" src="img/drawings/thumbs/thumb_igor_amorim_study_quickkk_42.png"    width="200px" height="200px" onclick="openModal(19)">
+                    </div>
+                    <!-- modal/lightbox -->
+                    <div id="myModal" class="modal">
+                        <span class="close cursor" onclick="closeModal()">&times;</span>
+                        <div class="modal-content">
+                            <div id="slide" class="mySlides">
+                                <img id="drawing" src="img/drawings/igor_amorim_dbz_fanart_112.png" height="700px">
+                            </div>
+                        </div>
+                        <div id="numbertext" class="numbertext">1 / 4</div>
+                        <!-- Next/previous controls -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/lightbox.js"></script>
+    </body>
+</html>
