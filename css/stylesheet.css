@@ -1,5 +1,6 @@
 body {
-    font-family: 'Contrail One', cursive;
+    /* font-family: 'Contrail One', cursive; */
+    font-family: Lato, sans-serif;
     font-size: 16px;    
     color: #303030;
     margin: 1em 1em 1em 1em;
@@ -23,7 +24,7 @@ li {
 }
 
 .description {
-    margin-left: 1em;
+    /* margin-left: 1em; */
     margin-top: 1em;
     font-size: 15px;
     color: #6b6b6b;
@@ -41,4 +42,12 @@ a:hover {
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.title {
+    text-transform: capitalize;
+}
+
+h1 {
+    font-size: 30px;
 }
