@@ -6,14 +6,17 @@ body {
     margin: 1em 1em 1em 1em;
 }
 
-li {
-    list-style: none;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 .division {
-    color: #c0c0c0;
-    background-color: #c0c0c0;
-    border-color: #c0c0c0;
+    color: #dadada;
+    background-color: #dadada;
+    border-color: #dadada;
     margin-top: 2em;
 }
 
@@ -37,7 +40,7 @@ a:link, a:visited, a:active {
 
 a:hover {
     color: #7212f0;
-    text-decoration: none;    
+    text-decoration: none;   
 }
 
 .mt-20 {
@@ -45,7 +48,7 @@ a:hover {
 }
 
 .title {
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 h1 {
