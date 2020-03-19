@@ -1,9 +1,8 @@
 body {
-    /* font-family: 'Contrail One', cursive; */
-    font-family: Lato, sans-serif;
-    font-size: 16px;    
-    color: #303030;
+    font-family: 'Fantasque Sans Mono', 'Ubuntu Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #4A4F5E;
     margin: 1em 1em 1em 1em;
+    line-height: 1.5em;
 }
 
 ul {
@@ -13,11 +12,14 @@ ul {
     overflow: hidden;
 }
 
+.menuItem {
+    display: inline;
+}
+
 .division {
     color: #dadada;
     background-color: #dadada;
     border-color: #dadada;
-    margin-top: 2em;
 }
 
 .imgSketch {
@@ -26,16 +28,23 @@ ul {
     margin-top: 0.5em;
 }
 
-.description {
-    /* margin-left: 1em; */
-    margin-top: 1em;
-    font-size: 15px;
-    color: #6b6b6b;
+.imgSketch2 {
+    /* background-image: url(default.jpg); */
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #7212f0;
+    color: #7212f0;
 }
 
 a:link, a:visited, a:active {
     text-decoration: none;
-    color: #303030;
+    color: #7212f0;
 }
 
 a:hover {
@@ -47,10 +56,16 @@ a:hover {
     margin-top: 20px;
 }
 
-.title {
-    text-transform: uppercase;
+h1, h2, h3 {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    color: #34363B;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.2em;
 }
