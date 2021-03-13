@@ -1,7 +1,11 @@
+html, body { 
+    height: 100%;
+    padding: 1em;
+}
+
 body {
     font-family: 'Fantasque Sans Mono', 'Ubuntu Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #4A4F5E;
-    margin: 1em 1em 1em 1em;
+    color: #34363B;
     line-height: 1.5em;
 }
 
@@ -10,6 +14,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+li {
+    margin-top: 5px;
 }
 
 .menuItem {
@@ -38,28 +46,23 @@ ul {
 
 a {
     text-decoration: none;
-    border-bottom: 1px solid #7212f0;
-    color: #7212f0;
+    font-weight: bold;
+    /* border-bottom: 1px solid #7212f0; */
+    color: #34363B;
 }
 
 a:link, a:visited, a:active {
     text-decoration: none;
-    color: #7212f0;
+    color: #34363B;
 }
 
 a:hover {
-    color: #7212f0;
+    color: #ffa600;
     text-decoration: none;   
 }
 
 .mt-20 {
     margin-top: 20px;
-}
-
-h1, h2, h3 {
-    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 100;
-    color: #34363B;
 }
 
 h1 {
@@ -68,4 +71,9 @@ h1 {
 
 h2 {
     font-size: 2.2em;
+}
+
+.blah {
+    font-size: 5.0em;
+    font-style: italic;
 }
